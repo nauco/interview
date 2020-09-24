@@ -16,3 +16,20 @@ Perhaps the most important computer protocol is OSI, a set of guidelines for imp
 
 대표적인 인터넷 프로토콜로는 TCP/IP, HTTPS, SMTP, DNS 등이 있다.   
 Among the most important sets of Internet protocols are TCP/IP, HTTPS, SMTP and DNS
+
+
+#프로토콜의 종류
+
+TCP/IP, SMTP, HTTP, HTTPS, 
+
+
+#프로토콜의 기능
+- 캡슐화(encapsulation)
+- 흐름제어(flow control)
+- 연결제어(connection control)
+- 오류제어(error control)
+- 주소설정(addressing)
+- 순서설정(sequence)
+- 동기화(synchronization)
+- 세분화와 재합성(fragmentation and reassembly)
+- 다중화(multiplexing)
