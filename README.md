@@ -17,11 +17,17 @@ Perhaps the most important computer protocol is OSI, a set of guidelines for imp
 대표적인 인터넷 프로토콜로는 TCP/IP, HTTPS, SMTP, DNS 등이 있다.   
 Among the most important sets of Internet protocols are TCP/IP, HTTPS, SMTP and DNS
 
-
+#프로토콜의 구성요소
+ - 구문(syntax): 데이터를 어떻게 구성할 지
+ - 의미(semantic): 데이터를 어떻게 제어할 지
+ - 타이밍(timing): 데이터를 주고 받을 속도와 동시에 통신하는 경우 순서 관리
+ 
+ 
 #프로토콜의 종류
 
-TCP/IP, SMTP, HTTP, HTTPS, 
+TCP/IP, SMTP, HTTP, HTTPS, FTP, SOAP, TLS
 
+(https://media.vlpt.us/post-images/devzunky/0f3adac0-11f0-11ea-8ab2-230db3666a7c/simple-osi-model-7-layers.png)
 
 #프로토콜의 기능
 - 캡슐화(encapsulation)
@@ -31,5 +37,5 @@ TCP/IP, SMTP, HTTP, HTTPS,
 - 주소설정(addressing)
 - 순서설정(sequence)
 - 동기화(synchronization)
-- 세분화와 재합성(fragmentation and reassembly)
+- 분할과 재조립(fragmentation and reassembly)
 - 다중화(multiplexing)
